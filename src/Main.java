@@ -121,9 +121,9 @@ public class Main {
 
 class MyComparator implements Comparator{
     public int compare(Object o1,Object o2){
-        String str1=o1.toString();
-        String str2=o2.toString();
+        String str2=o1.toString();
+        String str3=o2.toString();
 
-        return str2.compareTo(str1);
+        return str3.compareTo(str2);
     }
 }
